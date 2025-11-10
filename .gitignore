@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 rustbpe/target/
+mybpe/target/
 dev-ignore/
 report.md
 eval_bundle/

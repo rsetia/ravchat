@@ -1,0 +1,12 @@
+[package]
+name = "mybpe"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "mybpe"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pyo3 = { version = "0.23.3", features = ["extension-module"] }
+fancy-regex = "0.16.1"
